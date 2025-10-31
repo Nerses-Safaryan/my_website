@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nerses Portfolio</title>
+    <style>
+        body {
+            font-family: sans-serif;
+            background-color: #f8f8f8;
+            text-align: center;
+        }
+        .gallery {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 20px;
+            margin-top: 30px;
+        }
+        img {
+            width: 300px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+            cursor: pointer;
+            transition: transform 0.2s;
+        }
+        img:hover {
+            transform: scale(1.05);
+        }
+    </style>
+</head>
+<body>
+    <h1>My Design Portfolio</h1>
+    <div class="gallery">
+        <a href="design.html"><img src="./design-1.jpg" alt="Design 1"></a>
+        <a href="design2.html"><img src="./design-2.jpg" alt="Design 2"></a>
+        <a href="design3.html"><img src="./design3.jpg" alt="Design 3"></a>
+    </div>
+</body>
+</html>
